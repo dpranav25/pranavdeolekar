@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pranav | Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+
+  <header class="hero">
+    <h1>⚡Pranav Prasad Deolekar⚡</h1>
+    <p>Electronics Engineer📟 | Python Full Stack Developer👨🏻‍💻</p>
+    <p>“Electronics Engineer creating intelligent Python web applications that bridge hardware and software.”</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#jobs">Job</a>
+      <a href="#project">Project</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+<!-- section of about -->
+  <section id="about">
+    <div class="reveal">
+    <h2>About Me</h2>
+    <div class="profile-pic">
+      <img src="./profile.jpeg" alt="Profile Picture" />
+    <p>
+    I’m Pranav. I started out in Electronics Engineering, but I was always more interested in opening machines and understanding how things work than just studying them.
+    That curiosity slowly pulled me into software—first Python, then web development, and now full-stack projects.
+    I enjoy building simple, useful things, whether it’s a small automation script or a complete web application.
+    I’m especially interested in solving real-world problems and combining my hardware background with software skills.
+    This portfolio is a snapshot of what I’ve built, what I’m learning, and the direction I’m growing in as an engineer.
+    </p>
+    </div>
+    </div>
+  </section>
+
+
+<!-- section of skills -->
+  <section id="skills">
+    <div class="reveal">
+    <h2>Skills</h2>
+    <div class="skills-container">
+    <ul>
+      <li>Python🐍</li>
+      <li>HTML5, CSS3, JavaScript⚛</li>
+      <li>Django / Flask (Learning)</li>
+      <li>SQL📊</li>
+      <li>Electronics & SMD Components⚡</li>
+      <li>IoT & Embedded Systems🌐</li>
+      <li>Problem Solving &  Hardware Trouble Shooting</li>
+    </ul>
+    </div>
+    </div>
+  </section>
+
+
+<!-- section of job experience -->
+  <section id="jobs">
+    <div class="reveal">
+    <h2>Job Experience</h2>
+    <div class="job-header">
+      <img src="./company-logo.png" class="company-logo"/>
+      <div>
+      <h3>Mazagon Dock Shipbuilders Ltd</h3>
+      <p>Electronics Engineer | 2019 - 2021</p>
+      <br>
+    </div>
+  </div>
+      <p>Worked as an Electronics Engineer at Mazagon Dock Shipbuilders Ltd, a leading shipbuilding company in India
+         Gained hands-on experience in electronics design, testing, and troubleshooting for ship systems</p><br>
+    <ul>
+      <li>Designed and tested electronic circuits for ship systems, including power distribution, control panels, and communication interfaces</li>
+      <li>Collaborated with cross-functional teams to integrate electronics with mechanical and software components of the ships</li>
+      <li>Conducted troubleshooting and maintenance of electronic systems to ensure optimal performance and reliability</li>
+    </ul>
+  <div class="job-images" id="jobImages">
+<a href="./system-company.jpeg" target="_blank"><img src="./job1.png" alt="Job Image 1" class="job-image"/></a>
+<a href="./company-me.jpeg" target="_blank"><img src="./job2.png" alt  ="Job Image 2" class="job-image"/></a>
+<a href="./system-company2.jpeg" target="_blank"><img src="./job3.png" alt="Job Image 3" class="job-image"/></a>
+    </div>
+    <button class="show-btn" onclick="toggleImages()">Show Images</button>
+    </div>
+    </section>
+
+
+<!-- section of projects -->
+  <section id="project">
+    <div class="reveal">
+    <h2>Project</h2>
+    <div class="project-card">
+      <h3>IoT Home Automation Project</h3>
+      <p>Designed and implemented an IoT-based home automation system to remotely turn ON/OFF lights and fans
+Used microcontroller, relays, and IoT communication<br><br>
+To control electrical loads through software commands
+Gained hands-on experience in IoT architecture, sensor/actuator interfacing, and hardware–software integration.</p><br>
+<ul>
+<li>Remotely controlled lights and fans</li>
+<li>Integrated IoT communication</li>
+<li>Built Using microcontroller and Relays</li>
+</ul>
+    </div>
+    <div class="project-image" id="projectImage">
+<a href="./project-IOT.jpg" target="_blank"><img src="./project1.png" alt="Project Image 1" class="project-image"/></a>
+    </div>
+  <button class="show-btn" onclick="toggleProjectImages()">Show Project Image</button>
+    </div>
+  </section>
+
+
+<!-- section of resume -->
+  <section id="resume">
+    <div class="reveal">
+    <h2>Resume</h2>
+    <div class="resume-container">
+    <p>You can download my resume here:</p>
+    <a href="./Resume-Python.pdf" class="btn">Download Resume</a>
+    </div>
+    </div>
+  </section>
+
+
+<!-- section of contact -->
+  <section id="contact">
+    <div class="reveal">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <input type="text" id="subject" placeholder="Your Address" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formStatus"></p>
+    </div>
+  </section>
+
+
+<!-- footer -->
+  <footer>
+    <p>© 2026 Pranav. All rights reserved.</p>
+    <a href="https://www.linkedin.com/in/pranav-prasad-deolekar-9a1b4b1b3/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/Pranav-Deolekar" target="_blank">GitHub</a>
+    <p></p>
+    <a href="mailto:dpranav25@gmail.com" target="_blank">Email Me</a>
+    <p>Designed and developed this portfolio website using HTML, CSS, and JavaScript.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
